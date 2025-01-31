@@ -57,12 +57,13 @@ The best-performing approach is determined based on a balance of **performance, 
 
 ## Computational Resources
 
-The experiments were conducted using **high-performance computing resources**, including both **GPU and TPU accelerators** to ensure efficient training and evaluation of models:
+Most of the experiments were conducted on **Google Colab Pro**, utilizing both **GPU and TPU accelerators** for efficient training and evaluation of models:
 
-- **GPU Setup**: We utilized an **NVIDIA A100 GPU** for training deep learning models such as CodeBERT and fine-tuning embeddings. The A100 offers **80GB of high-bandwidth memory**, allowing us to process large datasets efficiently.
-- **TPU Setup**: For further acceleration, we leveraged a **v2-8 TPU** instance on Google Cloud/Colab, which provided significant speedups for transformer-based models like CodeBERT and reduced training time by nearly **4x** compared to standard GPUs.
+- **Google Colab Pro** provided access to **high-performance compute resources**, ensuring smooth execution of deep learning models and large-scale computations.
+- **GPU Setup**: We used an **NVIDIA A100 GPU** available on Colab Pro, which offers **80GB of high-bandwidth memory**, allowing for efficient model training and fine-tuning of CodeBERT embeddings.
+- **TPU Setup**: We leveraged a **v2-8 TPU instance**, which significantly accelerated computations, especially for transformer-based models like CodeBERT, reducing training time by nearly **4x** compared to traditional GPUs.
 
-The combination of **A100 GPUs and v2-8 TPUs** helped manage the large-scale computations required for feature extraction, embedding generation, and model training in this study. The TPU setup was particularly beneficial for handling **batch processing of embeddings** in pre-trained models.
+By leveraging **Google Colab Pro's dynamic hardware allocation**, we efficiently managed the **feature extraction, embedding generation, and model training** processes, ensuring optimal performance without requiring local computational resources.
 
 
 
