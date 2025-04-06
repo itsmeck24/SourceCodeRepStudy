@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code and resources for the research paper **"Evaluating Source Code Representation Techniques for Software Engineering Tasks"**. The study investigates and compares multiple code representation techniques—both traditional and pre-trained models—applied to two key software engineering tasks: **software fault prediction** and **code smell detection**.
+The study investigates and compares multiple code representation techniques—both traditional and pre-trained models—applied to two key software engineering tasks: **software fault prediction** and **code smell detection**.
 
 We evaluate the effectiveness of **Abstract Syntax Trees (ASTs), Control Flow Graphs (CFGs), their combination (AST+CFG), and pre-trained models (CodeBERT and Code2Vec)**. The experiments were conducted using publicly available datasets:
 
